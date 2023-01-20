@@ -1,0 +1,173 @@
+body {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header, .footer, .body > *{
+    padding: 20px 10% 20px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.body {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    list-style-type:none;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.header-links li a, #b1 #awesome-desc {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px;
+}
+
+#b1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+#b1 > * {
+    flex:auto;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 0 24px 0;
+}
+
+#b1 #awesome-title {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+#awesome-desc{
+    margin: 8px 0 8px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 24px 8px;
+    border-radius: 12px;
+    border-style:hidden;
+    font-weight: bolder;
+}
+
+#random-info-card-container {
+    display:flex;
+    gap: 40px;
+}
+
+.random-info-card * {
+    max-width: 150px;
+    flex:auto;
+    color: dimgray;
+}
+
+#b2 > #random-info-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin-bottom: 60px;
+}
+
+.random-info-card img{
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+    border-color: #3882F6;
+    border-style:solid;
+}
+
+.random-info-card div{
+    text-align: center;
+}
+
+#b3 {
+    background-color: #E5E7EB;
+}
+
+#b3 > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}
+
+#b3 #quote #quote-body {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+#b3 #quote #quote-author{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+#b4 #sign-up-card{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-radius: 12px;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 800px;
+    padding: 50px 100px 50px;
+}
+
+#b4 .sign-up{
+    border-style:solid;
+    border-color: #E5E7EB
+}
